@@ -42,4 +42,12 @@ public class Author {
     public int hashCode() {
         return Objects.hash(getName(), getDescription());
     }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
 }
